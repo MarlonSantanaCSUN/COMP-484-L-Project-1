@@ -1,115 +1,120 @@
-/* ===============================
-   Global Styles
-   Titanfall 2 Fan Website
-   =============================== */
-
 html, body {
-    margin: 0;
-    padding: 0;
-    background-color: #0f0f14;
-    font-family: Verdana, Geneva, sans-serif;
-    color: #e6e6e6;
+	background: #0f0f14;
+	margin: 0;
+	color: #e6e6e6;
+}
+h1, h2, h3, h4, h5, h6, p {
+	margin: 0;
+	padding: 0;
+}
+h1, h2, h3 {
+  color: #ff7b00;
 }
 
-/* Centered main layout */
-.container {
-    width: 85%;
-    margin: auto;
-    padding: 20px;
-    background-color: #1b1b26;
+body {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 100%;
+	width: 80%;
+	margin-right: auto;
+	margin-left: auto;
+	padding: 2.5% 2.5% 0;
+	background: #1b1b26;
+	line-height: 1.8;
 }
-
-/* Header */
-header {
-    text-align: center;
-    border-bottom: 2px solid #ff7b00;
-    padding-bottom: 15px;
-}
-
-header img {
-    max-width: 200px;
-}
-
-/* Navigation */
-nav ul {
-    list-style-type: none;
-    padding: 0;
-}
-
-nav ul li {
-    display: inline-block;
-    margin: 10px 15px;
-}
-
-nav a {
-    text-decoration: none;
-    color: #ff7b00;
-    font-weight: bold;
-}
-
-nav a:hover {
-    color: white;
-}
-
-/* Headings */
 h1 {
-    color: #ff7b00;
+	font: 1.6em Verdana, Geneva, sans-serif;
+	margin-bottom: .4em;
+	color: #ff7b00;
 }
-
 h2 {
-    border-bottom: 1px solid #444;
-    padding-bottom: 5px;
+	font: 3.2em Georgia, "Times New Roman", Times, serif;
+	margin-bottom: .2em;
 }
-
-/* Images */
-.feature-img {
-    width: 100%;
-    max-width: 600px;
-    display: block;
-    margin: 20px auto;
+h3 {
+	font-size: 1.2em;
 }
-
-/* Figure element styling (MDN element #1) */
-figure {
-    text-align: center;
+p {
+	margin-bottom: 1em;
 }
-
-figcaption {
-    font-style: italic;
-    font-size: 0.9em;
-    color: #ccc;
+a {
+	color: #cb6200;
 }
-
-/* Aside styling (semantic layout) */
-aside {
-    background-color: #26263a;
-    padding: 15px;
-    margin-top: 20px;
-    border-left: 5px solid #ff7b00;
+a:hover {
+	color: #964900;
 }
-
-/* Footer */
-footer {
-    text-align: center;
-    border-top: 1px solid #444;
-    margin-top: 30px;
-    padding-top: 10px;
-    font-size: 0.8em;
+pre {
+	font-size: 1.4em;
+	color: white;
+	padding: .5em 1em;
+	border-left: 1em solid #ff7b00;
+	background: #a3a3a3;
+	white-space: pre-wrap;
+	white-space: -moz-pre-wrap;
+	white-space: -pre-wrap;
+	white-space: -o-pre-wrap;
+	word-wrap: break-word;
+	width: 80%;
 }
-
-/* Table styling */
+pre.wrong {
+	border-left-color: red;
+}
+pre.correct {
+	border-left-color: green;
+}
+dt {
+	font-style: italic;
+	font-size:1.2em;
+}
+dd {
+	margin-bottom: 1.4em;
+}
 table {
-    width: 100%;
-    border-collapse: collapse;
-    margin-top: 15px;
+	margin-top: 1em;
+}
+caption {
+	margin: 0;
+	padding: 0;
+	margin-bottom: 1em;
+	text-align: left;
+}
+td, th {
+	padding: 10px;
+}
+.center {
+	text-align: center;
 }
 
-th, td {
-    border: 1px solid #444;
-    padding: 10px;
-    text-align: center;
+header h2 {
+	padding-bottom: .2em;
+	border-bottom: 1px solid #ff7b00;
 }
-
-th {
-    background-color: #33334d;
+aside {
+	padding: 1em;
+	background:#26263a;
+	color: white;
+	margin-bottom: 1em;
+}
+aside h4 {
+	color: white;
+}
+footer {
+	border-top: 1px solid #ff7b00;
+	text-align: center;
+	font-size: .8em;
+	line-height: 4em;
+	margin-top: 1em;
+}
+blockquote {
+	font-style: italic;
+}
+.flowRight {
+	float: right;
+	margin-left: 10px;
+}
+.flowLeft {
+	float: left;
+	margin-right: 10px;
+}
+.flowCenter {
+	float: center;
 }
