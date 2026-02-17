@@ -4,9 +4,11 @@
   <meta charset="utf-8">
   <title>Titanfall 2 Introduction</title>
   <link href="css/styles.css" rel="stylesheet" type="text/css" />
+  <!-- The <script> HTML element is used to embed executable code or data; this is typically used to embed or refer to JavaScript code. The <script> element can also be used with other languages, such as WebGL's GLSL shader programming language and JSON. -->
+  <script src="js/site.js" async></script>
 </head>
 <body>
-<header role="tittanfall2 header">
+<header role="titanfall2 header">
   <h1>Web Engineering Project</h1>
   <h2>Introduction</h2>
   <nav role="navigation">
@@ -29,12 +31,20 @@
 
     <section>
       <h3>About Titanfall 2</h3>
+
       <p>Titanfall 2 features both singleplayer and multiplayer modes, blending traditional FPS gameplay with mech-based combat. Players can control agile soldiers called Pilots and their Titans, massive robotic exoskeletons. The game emphasizes mobility, strategy, and teamwork. It has been praised for its responsive controls and inventive level design.</p>
     </section>
 
     <section>
       <h3>Game Universe</h3>
       <p>The game takes place in a futuristic sci-fi universe where interstellar corporations and militias fight for control of distant planets. Players explore diverse environments, from industrial complexes to lush alien landscapes. The universe is rich in lore, with detailed backstories for factions, Titans, and technologies. The setting provides a dynamic backdrop for both singleplayer and multiplayer missions.</p>
+      <!-- Small video example with a track that uses srclang -->
+      <video controls width="480">
+        <source src="videos/intro.mp4" type="video/mp4">
+        <!-- The <track> HTML element is used as a child of the media elements, <audio> and <video>. Each track element lets you specify a timed text track (or time-based data) that can be displayed in parallel with the media element, for example to overlay subtitles or closed captions on top of a video or alongside audio tracks. -->
+        <track kind="subtitles" srclang="en" label="English" src="videos/intro-en.vtt">
+        Your browser does not support the video tag.
+      </video>
     </section>
   </article>
 <!-- footer for this web engineering project-->
