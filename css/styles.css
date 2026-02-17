@@ -118,3 +118,11 @@ blockquote {
 .flowCenter {
 	float: center;
 }
+
+video {
+  width: 500px;
+}
+
+video::cue {
+  font-size: 1rem;
+}
